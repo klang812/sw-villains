@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Star Wars Villains</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Star Wars Villains</h1>
+
+    <p>Which Star Wars villain would you be?</p>
+
+    <form id="questions">
+      <div class="row">
+        <label for="heroes">Who would you get rid of first?</label>
+        <select id="heroes">
+          <option value="none" selected disabled>Select a hero</option>
+          <option value="1">Luke Skywalker</option>
+          <option value="2">Obi-Wan Kenobi</option>
+          <option value="3">Rey Skywalker</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="phrase">What is your catchphrase?</label>
+        <select id="phrase">
+          <option value="none" selected disabled>Select a phrase</option>
+          <option value="1">NOOOO!</option>
+          <option value="2">KENOBIIII</option>
+          <option value="3">Let the past die.</option>
+        </select>
+      </div>
+      
+      <button type="submit" class="btn">Show my villain</button>
+    </form>
+
+    <div id="resultVader">
+      <p>Your villain is <span id="vader"></span> <img src="img/vader.jpg" alt="Darth Vader"></p>
+    </div>
+    <div id="resultMaul">
+      <p>Your villain is <span id="maul"></span> <img src="img/maul.jpeg" alt="Darth Maul"></p>
+    </div>
+    <div id="resultKylo">
+      <p>Your villain is <span id="kylo"></span> <img src="img/kylo.jpeg" alt="Kylo Ren"></p>
+    </div>
+  </div>
+</body>
+</html>

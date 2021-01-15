@@ -1,0 +1,7 @@
+.row {
+  margin: 30px
+}
+
+#resultVader, #resultMaul, #resultKylo {
+  display: none;
+}
